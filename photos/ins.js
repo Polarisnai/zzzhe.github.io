@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://raw.githubusercontent.com/zz-zhe/fileServer/master/min_photos/' + data.link[i];
-          var src = 'https://raw.githubusercontent.com/zz-zhe/fileServer/master/photos/' + data.link[i];
+          var minSrc = 'http://47.103.28.137:888/fileServer/master/min_photos/' + data.link[i];
+          var src = 'http://47.103.28.137:888/fileServer/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
